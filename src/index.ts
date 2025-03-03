@@ -13,6 +13,6 @@ routesAction.forEach(({ path, type, action }) => router[type](path, action));
 app.use(bodyParser());
 app.use(router.routes());
 app.use(router.allowedMethods());
-app.listen(PORT);
-
-console.log(`应用启动成功 端口:${PORT}`);
+app.listen(PORT, () => {
+  console.log(`应用启动成功 端口:${PORT}`);
+});
