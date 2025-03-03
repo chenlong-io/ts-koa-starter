@@ -1,6 +1,6 @@
-import * as Koa from 'koa';
-import * as Router from '@koa/router';
-import * as bodyParser from 'koa-bodyparser';
+import Koa from 'koa';
+import Router from '@koa/router';
+import bodyParser from 'koa-bodyparser';
 import { PORT } from './config';
 import routesAction from './routes';
 import { responseMiddleware } from './middleWare/responseMiddleWare';
