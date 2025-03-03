@@ -1,3 +1,7 @@
+/**
+ * 该文件用于配置PM2
+ * https://pm2.fenxianglu.cn/docs/general/configuration-file/
+ */
 const { name } = require('./package.json');
 const path = require('path');
 
@@ -11,8 +15,8 @@ module.exports = {
       watch: true,
       env_production: {
         NODE_ENV: 'production',
-        PORT: 8080
-      }
-    }
-  ]
+        PORT: 8080,
+      },
+    },
+  ],
 };

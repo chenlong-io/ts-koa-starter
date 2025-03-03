@@ -6,6 +6,8 @@
 
 这是一个`koa`+`typescript`的起手式(简单的空环境)
 
+注意：node 版本请在 v18 以上
+
 如果你想再加个`typeorm`来玩玩数据库，请 clone 下来后切换到`bt-ts-koa-typeorm`分支
 
 ps:`typeorm`是一个非常好的数据库 ORM，如果你没玩过，请务必尝试一下 💪💪💪
