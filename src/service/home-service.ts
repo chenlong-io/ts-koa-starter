@@ -25,4 +25,6 @@ class HomeService {
   }
 }
 
-export default new HomeService();
+const homeService = new HomeService();
+
+export default homeService;
