@@ -29,7 +29,7 @@ ps:`typeorm`是一个非常好的数据库 ORM，如果你没玩过，请务必�
 
 ## 使用
 
-- git clone https://github.com/Vibing/ts-koa-starter.git
+- git clone https://github.com/chenlong-io/ts-koa-starter.git
 - yarn 或者 npm i
 - yarn start 或 npm start
 - 在浏览器中开打`localhost:3000`
